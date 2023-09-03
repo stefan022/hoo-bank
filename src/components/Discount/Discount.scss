@@ -1,0 +1,20 @@
+@use "../../sass/global/global";
+@use "../../sass/main.scss";
+
+.discount {
+    @apply flex flex-row items-center py-[6px] px-4 rounded-[10px] mb-2;
+    @extend .bg-discount-gradient;
+
+    &__image {
+        @apply w-[32px] h-[32px];
+    }
+
+    &__content {
+        @apply ml-2;
+        @extend .paragraph;
+
+        &-span {
+            @apply text-white;
+        }
+    }
+}

@@ -1,13 +1,18 @@
 import { discount } from '../../assets'
-import style from '../../style'
+
+import "./Discount.scss";
 
 const Discount = () => {
     return (
-        <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
-            <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
-            <p className={`${style.paragraph} ml-2`}>
-                <span className="text-white">20%</span> Discount For{" "}
-                <span className="text-white">1 Month</span> Account
+        <div className="discount">
+            <img 
+                src={discount} 
+                alt="discount" 
+                className="discount__image" 
+            />
+            <p className="discount__content">
+                <span className="discount__content-span">20%</span> Discount For{" "}
+                <span className="discount__content-span">1 Month</span> Account
             </p>
         </div>
     )
