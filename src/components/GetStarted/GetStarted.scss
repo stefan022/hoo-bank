@@ -1,0 +1,29 @@
+@use "../../sass/main.scss";
+@use "../../sass/global/global";
+
+.get-started {
+    @apply w-[140px] h-[140px] rounded-full bg-blue-gradient p-[2px] cursor-pointer;
+    @extend .bg-blue-gradient, .flex-center;
+
+    &__container {
+        @apply flex-col bg-primary w-[100%] h-[100%] rounded-full;
+        @extend .flex-center;
+
+        &_top {
+            @apply flex-row;
+            @extend .flex-start;
+
+            &-paragraph {
+                @apply font-poppins font-medium text-[18px] leading-[23px];
+            }
+
+            &-arrow {
+                @apply w-[23px] h-[23px] object-contain ml-2;
+            }
+        }
+
+        &_down {
+            @apply font-poppins font-medium text-[18px] leading-[23px];
+        }
+    }
+}
