@@ -1,0 +1,13 @@
+.flex {
+    &-start {
+        @apply flex justify-center items-start;
+    }
+
+    &-center {
+        @apply flex justify-center items-center;
+    }
+}
+
+.paragraph {
+    @apply font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px];
+}

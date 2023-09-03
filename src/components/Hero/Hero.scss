@@ -1,0 +1,42 @@
+@use "../../sass/global/global";
+@use "../../sass/main.scss";
+
+.hero {
+    @apply flex md:flex-row flex-col;
+
+    &__container {
+        @apply flex-col xl:px-0 sm:px-16 px-6;
+        @extend .flex-start;
+    }
+
+    &-robot {
+        @apply md:my-0 my-10 relative flex-1;
+        @extend .flex-center;
+
+        &__image {
+            @apply w-[100%] h-[100%] relative z-[5];
+        }
+
+        &__gradient {
+            &-pink {
+                @apply absolute z-[0] w-[40%] h-[35%] top-0;
+                @extend .pink__gradient;
+            }
+
+            &-white {
+                @apply absolute z-[1] w-[80%] h-[80%] rounded-full bottom-40;
+                @extend .white__gradient;
+            }
+
+            &-blue {
+                @apply absolute z-[0] w-[50%] h-[50%] right-20 bottom-20;
+                @extend .blue__gradient;
+            }
+        }
+    }
+
+    &__button {
+        @apply ss:hidden;
+        @extend .flex-center;
+    }
+}

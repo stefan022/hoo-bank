@@ -1,8 +1,8 @@
 import React from 'react'
 
-import style from '../style'
+import style from '../../style'
 
-import { arrowUp } from '../assets'
+import { arrowUp } from '../../assets'
 
 const GetStarted = () => (
   <div className={`${style.flexCenter} w-[140px] h-[140px] rounded-full bg-blue-gradient p-[2px] cursor-pointer`}>
