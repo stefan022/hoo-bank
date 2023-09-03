@@ -2,7 +2,7 @@
 @use "../../sass/global/global";
 
 .get-started {
-    @apply w-[140px] h-[140px] rounded-full bg-blue-gradient p-[2px] cursor-pointer;
+    @apply w-[140px] h-[140px] rounded-full bg-blue-gradient p-[2px] cursor-pointer mb-6 md:mb-0;
     @extend .bg-blue-gradient, .flex-center;
 
     &__container {
