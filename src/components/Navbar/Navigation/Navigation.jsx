@@ -1,4 +1,4 @@
-import { navLinks } from '../../../constants'
+import { navLinks } from '../../../constants/navLinks'
 import "./Navigation.scss"
 
 const Navigation = () => {
