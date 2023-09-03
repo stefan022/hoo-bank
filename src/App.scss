@@ -1,0 +1,34 @@
+@use "./sass/global/global";
+
+.layout {
+    @extend .box-width;
+}
+
+.app {
+    @apply bg-primary w-full overflow-hidden;
+
+    &__navbar {
+        @extend .padding-x, .flex-center;
+
+        &-layout {
+            @extend .layout;
+        }
+    }
+
+    &__hero {
+        @apply bg-primary;
+
+        &-layout {
+            @extend .layout;
+        }
+    }
+
+    &__section {
+        @apply bg-primary;
+        @extend .padding-x, .flex-center;
+
+        &-layout {
+            @extend .layout;
+        }
+    }
+}
