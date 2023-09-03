@@ -1,0 +1,7 @@
+.navigation {
+    @apply list-none sm:flex hidden justify-end items-center flex-1;
+
+    &__list {
+        @apply font-poppins font-normal cursor-pointer text-[16px] text-white mr-10 last:mr-0
+    }
+}

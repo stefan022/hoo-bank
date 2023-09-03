@@ -1,0 +1,7 @@
+.navbar {
+    @apply w-full flex py-6 justify-between items-center;
+
+    &__logo {
+        @apply w-[124px] h-[32px];
+    }
+}
