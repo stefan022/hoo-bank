@@ -1,0 +1,105 @@
+/********
+* COLORS
+*********/
+// WHITE
+$off-white: #ffffff99;
+$white: #ffffff;
+
+// GRAY
+$medium-gray: #6d6d6d;
+$dark-gray: #272727;
+$dark-slate-gray: #42475b1a;
+
+// BLUE
+$powder-blue: #def9fa;
+$baby-blue: #bef3f5;
+$sky-blue: #7de7eb;
+$turquoise-blue:#5ce1e6;
+$dodger-blue: #33bbcf;
+$cyan-blue: #9dedf0;
+$midnight-blue: #11101d;
+$lavender-blue: #bca5ff00;
+$cerulean-blue: #214d76;
+
+// PINK
+$orchid-pink: #f4c4f3;
+
+// PURPLE
+$electric-purple: #fc67fa;
+
+/*****************
+* LINEAR GRADIENT
+******************/
+$black-gradient: linear-gradient( 
+    144.39deg, 
+    $off-white -278.56%,
+    $medium-gray -78.47%, 
+    $midnight-blue 91.61% 
+);
+
+$bg-blue-gradient: linear-gradient( 
+    157.81deg, 
+    $powder-blue -43.27%, 
+    $baby-blue -21.24%, 
+    $cyan-blue 12.19%, 
+    $sky-blue 29.82%, 
+    $turquoise-blue 51.94%, 
+    $dodger-blue 90.29% 
+
+);
+
+$bg-black-gradient: linear-gradient(
+    144.39deg,
+    $white -278.56%,
+    $medium-gray -78.47%,
+    $midnight-blue 91.61%
+);
+
+$bg-black-gradient-2: linear-gradient(
+    -168.39deg,
+    $white -278.56%,
+    $medium-gray -78.47%,
+    $midnight-blue 91.61%
+);
+
+$bg-discount-gradient: linear-gradient(
+    125.17deg, 
+    $dark-gray 0%, 
+    $midnight-blue 100%
+);
+
+$blue-gradient: linear-gradient(
+    180deg, 
+    $lavender-blue 0%, 
+    $cerulean-blue 100%
+);
+
+$pink-gradient: linear-gradient(
+    90deg, 
+    $orchid-pink 0%, 
+    $electric-purple 100%
+);
+
+/*****************
+* RADIAL GRADIENT
+******************/
+$text-gradient: radial-gradient( 
+    64.18% 64.18% at 71.16% 35.69%, 
+    $powder-blue 0.89%, 
+    $baby-blue 17.23%, 
+    $cyan-blue 42.04%, 
+    $sky-blue 55.12%, 
+    $turquoise-blue 71.54%, 
+    $dodger-blue 100% 
+);
+
+/********
+* SHADOW
+*********/
+$card-shadow: 0px 20px 100px -10px $dark-slate-gray;
+$box-shadow: 0px 20px 100px -10px $dark-slate-gray;
+
+/***********
+* ANIMATION
+************/
+$slide-top: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
