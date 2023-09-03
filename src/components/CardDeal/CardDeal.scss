@@ -1,0 +1,13 @@
+@use "../../sass/global/global";
+
+.card-deal {
+    @extend .section;
+
+    &__image {
+        @extend .section-img;
+
+        &-src {
+            @apply w-[100%] h-[100%];
+        }
+    }
+}

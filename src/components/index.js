@@ -19,7 +19,10 @@ export { default as Billing } from './Billing/Billing'
 export { default as BillingStore } from './Billing/BillingStore/BillingStore'
 export { default as BillingImage } from './Billing/BillingImage/BillingImage'
 
-export { default as CardDeal } from './CardDeal'
+// CARD DEAL
+export { default as CardDeal } from './CardDeal/CardDeal'
+export { default as CardDealImage } from './CardDeal/CardDealImage/CardDealImage'
+
 export { default as Testimonials } from './Testimonials'
 export { default as Clients } from './Clients'
 export { default as CTA } from './CTA'
