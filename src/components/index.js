@@ -14,7 +14,11 @@ export { default as Stats } from './Stats/Stats'
 // BUSINESS
 export { default as Business } from './Business/Business'
 
-export { default as Billing } from './Billing'
+// BILLING
+export { default as Billing } from './Billing/Billing'
+export { default as BillingStore } from './Billing/BillingStore/BillingStore'
+export { default as BillingImage } from './Billing/BillingImage/BillingImage'
+
 export { default as CardDeal } from './CardDeal'
 export { default as Testimonials } from './Testimonials'
 export { default as Clients } from './Clients'
