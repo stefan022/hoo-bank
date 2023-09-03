@@ -23,7 +23,8 @@ export { default as BillingImage } from './Billing/BillingImage/BillingImage'
 export { default as CardDeal } from './CardDeal/CardDeal'
 export { default as CardDealImage } from './CardDeal/CardDealImage/CardDealImage'
 
-export { default as Testimonials } from './Testimonials'
+// TESTIMONIALS
+export { default as Testimonials } from './Testimonials/Testimonials'
 export { default as Clients } from './Clients'
 export { default as CTA } from './CTA'
 export { default as Footer } from './Footer'
@@ -38,3 +39,9 @@ export { default as SectionInfo } from "./SectionInfo/SectionInfo";
 export { default as Heading } from "./Heading/Heading";
 export { default as FeatureCards } from "./FeatureCards/FeatureCards";
 export { default as FeatureSingleCard } from "./FeatureCards/FeatureSingleCard/FeatureSingleCard";
+export { default as Feedback } from "./Feedback/Feedback";
+export { default as FeedbackCard } from "./Feedback/FeedbackCard/FeedbackCard";
+export { default as FeedbackCardQuotes } from "./Feedback/FeedbackCard/FeedbackCardQuotes/FeedbackCardQuotes";
+export { default as FeedbackCardContent } from "./Feedback/FeedbackCard/FeedbackCardContent/FeedbackCardContent";
+export { default as FeedbackCardContainer } from "./Feedback/FeedbackCard/FeedbackCardContainer/FeedbackCardContainer";
+

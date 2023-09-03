@@ -1,0 +1,14 @@
+@use "../../sass/global/global";
+
+.testimonials {
+    @apply flex-col relative;
+    @extend .padding-y, .flex-center;
+
+    &__info {
+        @apply w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1];
+
+        &-paragraph {
+            @apply w-full md:mt-0 mt-6;
+        }
+    }
+}
