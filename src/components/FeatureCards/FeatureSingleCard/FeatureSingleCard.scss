@@ -1,0 +1,30 @@
+@use "../../../sass/main.scss";
+@use "../../../sass/global/global";
+
+.feature {
+    &-card {
+        @apply flex flex-row p-6 rounded-[20px] mb-6 last:mb-0 cursor-pointer;
+        @extend .feature__card;
+
+        &__left {
+            @apply w-[64px] h-[64px] rounded-full bg-dimBlue;
+            @extend .flex-center;
+
+            &-icon {
+                @apply w-[50%] h-[50%] object-contain;
+            }
+        }
+
+        &__right {
+            @apply flex-1 flex flex-col ml-3;
+
+            &-title {
+                @apply font-poppins font-semibold text-[18px] text-white leading-[23px] mb-1;
+            }
+
+            &-content {
+                @apply font-poppins font-normal text-[16px] text-dimWhite leading-[24px] mb-1;
+            }
+        }
+    }
+}

@@ -1,0 +1,10 @@
+@use "../../sass/global/global";
+
+.business {
+    @extend .section;
+
+    &__features {
+        @apply flex-col;
+        @extend .section-img;
+    }
+}

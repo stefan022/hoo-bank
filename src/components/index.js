@@ -11,8 +11,9 @@ export { default as HeroRobot } from './Hero/HeroRobot/HeroRobot'
 // STATS
 export { default as Stats } from './Stats/Stats'
 
+// BUSINESS
+export { default as Business } from './Business/Business'
 
-export { default as Business } from './Business'
 export { default as Billing } from './Billing'
 export { default as CardDeal } from './CardDeal'
 export { default as Testimonials } from './Testimonials'
@@ -26,3 +27,7 @@ export { default as Paragraph } from "./Paragraph/Paragraph";
 export { default as Title } from "./Title/Title";
 export { default as GetStarted } from "./GetStarted/GetStarted";
 export { default as Divider } from "./Divider/Divider";
+export { default as SectionInfo } from "./SectionInfo/SectionInfo";
+export { default as Heading } from "./Heading/Heading";
+export { default as FeatureCards } from "./FeatureCards/FeatureCards";
+export { default as FeatureSingleCard } from "./FeatureCards/FeatureSingleCard/FeatureSingleCard";
