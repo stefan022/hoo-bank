@@ -1,0 +1,5 @@
+@import "../../sass/main.scss";
+
+.btn {
+    @apply py-4 px-6 font-poppins font-medium text-[18px] text-primary outline-none rounded-[10px];
+}

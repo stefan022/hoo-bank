@@ -40,6 +40,7 @@ export { default as FooterSingleLink } from './Footer/FooterLinks/FooterSingleLi
 export { default as FooterLogo } from './Footer/FooterLinks/FooterLogo/FooterLogo'
 
 // OTHERS
+export { default as Button } from "./Button/Button";
 export { default as Discount } from "./Discount/Discount";
 export { default as Paragraph } from "./Paragraph/Paragraph";
 export { default as Title } from "./Title/Title";

@@ -1,5 +1,4 @@
-import { FeatureCards, Heading, Paragraph, SectionInfo } from "../../components"
-import Button from "../Button";
+import { FeatureCards, Heading, Paragraph, SectionInfo, Button } from "../../components"
 
 import "./Business.scss";
 

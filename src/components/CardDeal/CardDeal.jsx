@@ -1,5 +1,4 @@
-import { CardDealImage, Heading, Paragraph, SectionInfo } from "../../components"
-import Button from "../Button";
+import { CardDealImage, Heading, Paragraph, SectionInfo, Button } from "../../components"
 
 import "./CardDeal.scss";
 

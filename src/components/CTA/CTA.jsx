@@ -1,5 +1,4 @@
-import { Paragraph } from "../../components";
-import Button from "../Button";
+import { Paragraph, Button } from "../../components";
 
 import "./CTA.scss"
 
