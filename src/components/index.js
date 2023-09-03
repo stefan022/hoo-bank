@@ -8,7 +8,10 @@ export { default as MenuNavigation } from './Navbar/Menu/MenuNavigation/MenuNavi
 export { default as Hero } from './Hero/Hero'
 export { default as HeroRobot } from './Hero/HeroRobot/HeroRobot'
 
-export { default as Stats } from './Stats'
+// STATS
+export { default as Stats } from './Stats/Stats'
+
+
 export { default as Business } from './Business'
 export { default as Billing } from './Billing'
 export { default as CardDeal } from './CardDeal'
