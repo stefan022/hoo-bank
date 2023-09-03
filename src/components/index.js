@@ -1,6 +1,9 @@
-// all components
+// NAVBAR
+export { default as Navbar } from './Navbar/Navbar'
+export { default as Navigation } from './Navbar/Navigation/Navigation'
+export { default as Menu } from './Navbar/Menu/Menu'
+export { default as MenuNavigation } from './Navbar/Menu/MenuNavigation/MenuNavigation'
 
-export { default as Navbar } from './Navbar'
 export { default as Hero } from './Hero'
 export { default as Stats } from './Stats'
 export { default as Business } from './Business'
