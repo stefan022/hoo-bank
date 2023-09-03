@@ -17,8 +17,20 @@
 }
 
 .padding {
+    @apply sm:px-16 px-6 sm:py-12 py-4;
+
     &-y {
         @apply sm:py-16 py-6;
+    }
+
+    &-x {
+        @apply sm:px-16 px-6;
+    }
+}
+
+.margin {
+    &-y {
+        @apply sm:my-16 my-6;
     }
 }
 
@@ -44,5 +56,11 @@
     &-reverse {
         @apply flex md:flex-row flex-col-reverse;
         @extend .padding-y;
+    }
+}
+
+.box {
+    &-width {
+        @apply xl:max-w-[1280px] w-full;
     }
 }

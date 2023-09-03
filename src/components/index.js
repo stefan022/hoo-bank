@@ -30,8 +30,14 @@ export { default as Testimonials } from './Testimonials/Testimonials'
 export { default as Clients } from './Clients/Clients'
 export { default as SingleClient } from './Clients/SingleClient/SingleClient'
 
-export { default as CTA } from './CTA'
-export { default as Footer } from './Footer'
+// CTA
+export { default as CTA } from './CTA/CTA'
+
+// FOOTER
+export { default as Footer } from './Footer/Footer'
+export { default as FooterLinks } from './Footer/FooterLinks/FooterLinks'
+export { default as FooterSingleLink } from './Footer/FooterLinks/FooterSingleLink/FooterSingleLink'
+export { default as FooterLogo } from './Footer/FooterLinks/FooterLogo/FooterLogo'
 
 // OTHERS
 export { default as Discount } from "./Discount/Discount";
@@ -48,4 +54,5 @@ export { default as FeedbackCard } from "./Feedback/FeedbackCard/FeedbackCard";
 export { default as FeedbackCardQuotes } from "./Feedback/FeedbackCard/FeedbackCardQuotes/FeedbackCardQuotes";
 export { default as FeedbackCardContent } from "./Feedback/FeedbackCard/FeedbackCardContent/FeedbackCardContent";
 export { default as FeedbackCardContainer } from "./Feedback/FeedbackCard/FeedbackCardContainer/FeedbackCardContainer";
-
+export { default as SocialMedia } from "./SocialMedia/SocialMedia";
+export { default as Copyright } from "./Copyright/Copyright";

@@ -1,0 +1,7 @@
+.social-media {
+    @apply flex flex-row md:mt-0 mt-6;
+
+    &__icon {
+        @apply w-[21px] h-[21px] object-contain cursor-pointer mr-6 last:mr-0;
+    }
+}

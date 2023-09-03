@@ -1,0 +1,43 @@
+@use "../../sass/global/global";
+
+.footer {
+    @apply flex-col;
+    @extend .flex-center, .padding-y;
+
+    &__container {
+        @apply md:flex-row flex-col mb-8 w-full;
+        @extend .flex-start;
+    }
+
+    &__casm {
+        @apply w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3f3e45];
+    }
+
+    &-logo {
+        @apply flex-1 flex flex-col justify-center mr-10;
+
+        &__src {
+            @apply w-[266px] h-[72px] object-contain;
+        }
+    }
+
+    &-links {
+        @apply flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10;
+
+        &__group {
+            @apply flex flex-col ss:my-0 my-4 min-w-[150px];
+
+            &-title {
+                @apply font-poppins font-medium text-[18px] leading-[27px] text-white;
+            }
+
+            &_link {
+                @apply list-none mt-4;
+
+                &-list {
+                    @apply font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-4 last:mb-0;
+                }
+            }
+        }
+    }
+}
