@@ -25,7 +25,11 @@ export { default as CardDealImage } from './CardDeal/CardDealImage/CardDealImage
 
 // TESTIMONIALS
 export { default as Testimonials } from './Testimonials/Testimonials'
-export { default as Clients } from './Clients'
+
+// CLIENTS
+export { default as Clients } from './Clients/Clients'
+export { default as SingleClient } from './Clients/SingleClient/SingleClient'
+
 export { default as CTA } from './CTA'
 export { default as Footer } from './Footer'
 

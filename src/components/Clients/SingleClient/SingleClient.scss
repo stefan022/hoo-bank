@@ -1,0 +1,10 @@
+@use "../../../sass/global/global";
+
+.single-client {
+    @apply flex-1 sm:min-w-[192px] min-w-[120px];
+    @extend .flex-center;
+
+    &__logo {
+        @apply sm:w-[192px] w-[100px] object-contain cursor-pointer;
+    }
+}

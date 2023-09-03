@@ -1,0 +1,11 @@
+@use "../../sass/global/global";
+
+.clients {
+    @apply my-4;
+    @extend .flex-center;
+
+    &__container {
+        @apply flex-wrap w-full;
+        @extend .flex-center;
+    }
+}
